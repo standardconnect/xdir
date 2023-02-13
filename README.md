@@ -61,7 +61,7 @@ By contributing, you are helping to make this package more valuable for new deve
 1. Create a fork
 2. Determine if your node is apart of an existing network list [here](https://github.com/standardconnect/xdir/tree/main/networks). If YES,got to **Step 3**. If NO, got to **Step 4**.
 3. Add you node's endpoints (wss, and/or rpc) to the end of their respective lists. Then move to **Step 5**.
-4. Use the tempalate [here]() to get started. Modified all fields for your network. Make sure to including your networks name and a short description. Change name of file to your networks name and move to /networks folder.
+4. Use the template [here](https://github.com/standardconnect/xdir/blob/main/sample.json) to get started. Modified all fields for your network. Make sure to including your networks name and a short description. Change name of file to your networks name and move to /networks folder.
 5. Create a pull request.
 
 See **Contributing Guidelines** for more information.
