@@ -1,0 +1,18 @@
+{
+  "id": 51218,
+  "name": "vala",
+  "desc": "Highly experimental xrpl network.",
+  "wss": [
+    "wss://vala.ws.transia.co/"
+  ],
+  "rpc": [],
+  "explorer": "https://custom.xrpl.org/vala.ws.transia.co:443",
+  "repo": "https://github.com/Transia-RnD/rippled/tree/vala",
+  "faucet": null,
+  "vl": {
+    "transia": {
+      "site": "https://vala.vl.transia.co",
+      "key": [""]
+    },
+  }
+}
