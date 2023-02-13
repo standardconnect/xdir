@@ -13,8 +13,8 @@ networks.forEach((network: Network) => {
 });
 
 /**
- * An object of default network identifiers indexed by network name.
- * https://github.com/bibbleso/bibble/blob/main/src/utils/id.ts
+ * An object of default network statuses indexed by network name.
+ * https://github.com/standardconnect/bibble/blob/main/src/utils/id.ts
  *
  * @example
  * ```ts

@@ -24,13 +24,13 @@ networks.forEach((network: Network) => {
 
 /**
  * An object of default rpc strings, indexed by network name.
- * https://github.com/bibbleso/bibble/blob/main/src/utils/rpc.ts
+ * https://github.com/standardconnect/xdir/blob/main/src/utils/rpc.ts
  *
  * @example
  * ```ts
- * import bibble from 'bibble';
+ * import xdir from 'xdir';
  *
- * const mainnet_rpc = bibble.rpc.mainnet // "https://xrplcluster.com"
+ * const mainnet_rpc = xdir.rpc.mainnet // "https://xrplcluster.com"
  * ```
  */
 export const obj: NetworkObjType = Object.create(Object.fromEntries(map));

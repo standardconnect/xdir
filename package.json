@@ -1,6 +1,6 @@
 {
   "name": "xdir",
-  "version": "0.0.1-beta",
+  "version": "0.0.1",
   "description": "A simple directory of networks using the XRP Ledger Protocol",
   "repository": "https://github.com/standardconnect/xdir.git",
   "author": "interc0der",
