@@ -22,7 +22,7 @@ const networks: Network[] = registry.networks;
  * The full xrpl network registry - community driven.
  * This might be useful for user-specific parsing and general bookkeeping.
  *
- * @link https://github.com/bibbleso/bibble/blob/main/src/networks.json
+ * @link https://github.com/standardconnect/xdir/blob/main/src/networks.json
  */
 const document: Registry = registry;
 

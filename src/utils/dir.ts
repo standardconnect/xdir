@@ -14,13 +14,13 @@ networks.forEach((network: Network) => {
 
 /**
  * An object of default network identifiers indexed by network name.
- * https://github.com/bibbleso/bibble/blob/main/src/utils/id.ts
+ * https://github.com/standardconnect/xdir/blob/main/src/utils/id.ts
  *
  * @example
  * ```ts
- * import bibble from 'bibble';
+ * import xdir from 'xdir';
  *
- * const mainnet_id = bibble.id.mainnet // "0"
+ * const mainnet_id = xdir.id.mainnet // "0"
  * ```
  */
 export const obj: NetworkObjType = Object.create(Object.fromEntries(map));

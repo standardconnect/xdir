@@ -18,9 +18,9 @@ networks.forEach((network: Network) => {
  *
  * @example
  * ```ts
- * import bibble from 'bibble';
+ * import xls from 'xls';
  *
- * const mainnet_id = bibble.id.mainnet // "0"
+ * const mainnet_id = xls.statuses.mainnet // "active"
  * ```
  */
 export const obj: NetworkObjType = Object.create(Object.fromEntries(map));

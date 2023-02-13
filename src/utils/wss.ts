@@ -24,14 +24,14 @@ networks.forEach((network: Network) => {
 
 /**
  * An object of default websocket strings, indexed by network name.
- * https://github.com/bibbleso/bibble/blob/main/src/utils/wss.ts
+ * https://github.com/standardconnect/xdir/blob/main/src/utils/wss.ts
  *
  * @example
  * Using the full object...
  * ```ts
- * import bibble from 'bibble';
+ * import xdir from 'xdir';
  *
- * const mainnet_wss = bibble.wss
+ * const mainnet_wss = xdir.wss
  *
  * //   mainnet_wss = {
  * //       mainnet: 'wss://xrplcluster.com',
@@ -47,17 +47,17 @@ networks.forEach((network: Network) => {
  *
  * Getting a specific network websocket string...
  * ```ts
- * import bibble from 'bibble';
+ * import xdir from 'xdir';
  *
- * const mainnet_wss = bibble.wss.mainnet // "wss://xrplcluster.com"
+ * const mainnet_wss = xdir.wss.mainnet // "wss://xrplcluster.com"
  * ```
  *
  * Usage with xrpljs...
  * ```ts
- * import bibble from 'bibble';
+ * import xdir from 'xdir';
  * import xrpl from 'xrpl';
  *
- * const client = new xrpl.client(bibble.wss.mainnet)
+ * const client = new xrpl.client(xdir.wss.mainnet)
  * ```
  */
 export const obj: NetworkObjType = Object.create(Object.fromEntries(map));

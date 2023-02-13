@@ -19,13 +19,13 @@ const getKey = <K, T>(map: Map<K, T>, value: T): K | undefined => {
 
 /**
  * A function to find the default websocket string given a network Id.
- * https://github.com/bibbleso/bibble/blob/main/src/utils/id.ts#L51
+ * https://github.com/standardconnect/xdir/blob/main/src/utils/id.ts#L51
  *
  * @example
  * ```ts
- * import bibble from 'bibble';
+ * import xdir from 'xdir';
  *
- * const wss = bibble.getClientStringbyId(0) // 'wss://xrplcluster.com'
+ * const wss = xdir.getClientStringbyId(0) // 'wss://xrplcluster.com'
  * ```
  */
 const getClientStringbyId = (n: number): string | undefined | null => {
@@ -36,52 +36,52 @@ const getClientStringbyId = (n: number): string | undefined | null => {
 
 /**
  * A function to find the default RPC endpoint string given a websocket string.
- * https://github.com/bibbleso/bibble/blob/main/src/utils/id.ts#L51
+ * https://github.com/standardconnect/xdir/blob/main/src/utils/id.ts#L51
  *
  * @example
  * ```ts
- * import bibble from 'bibble';
+ * import xdir from 'xdir';
  *
- * const wss = bibble.getClientStringbyName('mainnet') // 'wss://xrplcluster.com'
+ * const wss = xdir.getClientStringbyName('mainnet') // 'wss://xrplcluster.com'
  * ```
  */
 const getClientStringbyName = (name: string): string | undefined | null => wss.map.get(name);
 
 /**
  * A function to find the network name given a websocket string.
- * https://github.com/bibbleso/bibble/blob/main/src/utils/id.ts#L51
+ * https://github.com/standardconnect/xdir/blob/main/src/utils/id.ts#L51
  *
  * @example
  * ```ts
- * import bibble from 'bibble';
+ * import xdir from 'xdir';
  *
- * const name = bibble.getNetworkNameByWss('wss://xrplcluster.com') // 'mainnet'
+ * const name = xdir.getNetworkNameByWss('wss://xrplcluster.com') // 'mainnet'
  * ```
  */
 const getNetworkNameByWss = (s: string): string | undefined | null => wss.swap.get(s);
 
 /**
- * A function to find the default websocket string given an RPC endpoint.
- * https://github.com/bibbleso/bibble/blob/main/src/utils/id.ts#L51
+ * A function to find the network name given an RPC endpoint.
+ * https://github.com/standardconnect/xdir/blob/main/src/utils/id.ts#L51
  *
  * @example
  * ```ts
- * import bibble from 'bibble';
+ * import xdir from 'xdir';
  *
- * const name = bibble.getNetworkNameByRPC('https://xrplcluster.com') // 'mainnet'
+ * const name = xdir.getNetworkNameByRPC('https://xrplcluster.com') // 'mainnet'
  * ```
  */
 const getNetworkNameByRPC = (r: string): string | undefined | null => rpc.swap.get(r);
 
 /**
  * A function to find the default websocket string given an RPC endpoint.
- * https://github.com/bibbleso/bibble/blob/main/src/utils/id.ts#L51
+ * https://github.com/standardconnect/xdir/blob/main/src/utils/id.ts#L51
  *
  * @example
  * ```ts
- * import bibble from 'bibble';
+ * import xdir from 'xdir';
  *
- * const valid = bibble.getRpcWithWssString('https://xrplcluster.com') // 'wss://xrplcluster.com'
+ * const valid = xdir.getRpcWithWssString('https://xrplcluster.com') // 'wss://xrplcluster.com'
  * ```
  */
 const getRpcWithWssString = (s: string): string | undefined | null => {
@@ -92,13 +92,13 @@ const getRpcWithWssString = (s: string): string | undefined | null => {
 
 /**
  * A function to determine if a given string is valid.
- * https://github.com/bibbleso/bibble/blob/main/src/utils/id.ts#L58
+ * https://github.com/standardconnect/xdir/blob/main/src/utils/id.ts#L58
  *
  * @example
  * ```ts
- * import bibble from 'bibble';
+ * import xdir from 'xdir';
  *
- * const valid = bibble.isValid('wss://xrplcluster.com') // true
+ * const valid = xdir.isValid('wss://xrplcluster.com') // true
  * ```
  */
 const isValid = (s: string): boolean => {
