@@ -10,11 +10,12 @@
 
 As a developer building on the XRP Ledger, it can be difficult to discover and then manage all of the websockets and rpc endpoints for public nodes using the _XRP Ledger Protocol_.
 
-This project was created to help with a few things:
+This project was created to...
 
 - Provide a single registry for all networks and endpoints using the _XRP Ledger Protocol_
 - Abstract away ugly strings to improve developer experience (DX)
-- Open-source for any new project or node maintainer
+- Drive network traffic to new projects or node maintainers
+- Open-source a registry built and maintained by the community
 
 ## Getting Started
 
