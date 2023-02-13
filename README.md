@@ -4,7 +4,7 @@
 
 [![NPM](https://nodei.co/npm/xdir.png)](https://www.npmjs.com/package/xdir)
 
-## [➡️ Reference Documentation](https://standardconnect.github.io/xdir/)
+## [➡️ [WIP] Reference Documentation](https://standardconnect.github.io/xdir/)
 
 # Overview
 
