@@ -9,6 +9,8 @@ const wss = {
   devnet: fyi.wss.devnet,
   xls20: fyi.wss.xls20,
   amm: fyi.wss.amm,
+  locking: fyi.wss.locking,
+  issuing: fyi.wss.issuing,
 };
 
 const rpc = {
@@ -19,6 +21,8 @@ const rpc = {
   devnet: fyi.rpc.devnet,
   xls20: fyi.rpc.xls20,
   amm: fyi.rpc.amm,
+  locking: fyi.rpc.locking,
+  issuing: fyi.rpc.issuing,
 };
 
 const id = {
@@ -29,6 +33,8 @@ const id = {
   devnet: fyi.id.devnet,
   xls20: fyi.id.xls20,
   amm: fyi.id.amm,
+  locking: fyi.id.locking,
+  issuing: fyi.id.issuing,
 };
 
 describe('utils', () => {

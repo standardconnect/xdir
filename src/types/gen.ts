@@ -7,6 +7,8 @@ export interface NetworkObjType {
   xls20: string | null;
   hooks: string | null;
   amm: string | null;
+  issuing: string | null;
+  locking: string | null;
   xevm: string | null;
 }
 
@@ -17,5 +19,7 @@ export interface NetworkType {
   xls20: Network;
   hooks: Network;
   amm: Network;
+  issuing: Network;
+  locking: Network;
   xevm: Network;
 }

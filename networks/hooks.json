@@ -1,16 +1,16 @@
 {
-  "id": 225,
+  "id": 21338,
   "name": "hooks",
   "type": "development",
   "status": "live",
-  "desc": "The XRPL Labs Hooks V2 staging net  runs a beta of the Hooks amendment, as well as all other XRP Ledger features. New amendments like XLS-20 (NFT’s) are also active on the Hooks V2 staging net.",
-  "wss": ["wss://hooks-testnet-v2.xrpl-labs.com"],
-  "rpc": ["https://hooks-testnet-v2.xrpl-labs.com"],
+  "desc": "The XRPL Labs Hooks V3 staging net  runs a beta of the Hooks amendment, as well as all other XRP Ledger features. New amendments like XLS-20 (NFT’s) are also active on the Hooks V2 staging net.",
+  "wss": ["wss://hooks-testnet-v3.xrpl-labs.com"],
+  "rpc": ["https://hooks-testnet-v3.xrpl-labs.com"],
   "docs": ["https://xrpl-hooks.readme.io", "https://hooks-testnet-v2.xrpl-labs.com"],
   "qr": "https://xumm.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F8cf85d25-b3ad-4241-99ab-f6172b93b193%2FqrCode_(7).png?table=block&id=2af80da7-875d-49cc-b1da-78fec65ff3b6&spaceId=eb8866e3-4311-4e85-a4c2-0ecfe166ea3c&width=290&userId=&cache=v2",
-  "explorer": "https://hooks-testnet-v2-explorer.xrpl-labs.com",
+  "explorer": "https://hooks-testnet-v3-explorer.xrpl-labs.com",
   "repo": "https://github.com/XRPL-Labs/xrpld-hooks",
-  "faucet": null,
+  "faucet": "https://hooks-testnet-v3.xrpl-labs.com/newcreds",
   "vl": {
     "default": {
       "site": "https://vl.beta.bithomp.com",

@@ -1,0 +1,13 @@
+{
+  "id": null,
+  "name": "locking",
+  "type": "development",
+  "status": "live",
+  "desc": "A preview of the XLS-20d standard for non-fungible tokens on the XRP Ledger.",
+  "wss": "wss://sidechain-net1.devnet.rippletest.net:51233",
+  "rpc": "http://sidechain-net1.devnet.rippletest.net:51234",
+  "explorer": "https://custom.xrpl.org/",
+  "repo": "https://github.com/XRPLF/rippled/tree/sidechain",
+  "faucet": "https://sidechain-faucet.devnet.rippletest.net/accounts",
+  "docs": "https://opensource.ripple.com/docs/xls-38d-cross-chain-bridge/parallel-networks-list/"
+}
