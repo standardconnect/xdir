@@ -3,7 +3,7 @@
   "name": "issuing",
   "type": "development",
   "status": "live",
-  "desc": "A preview of the XLS-20d standard for non-fungible tokens on the XRP Ledger.",
+  "desc": "A preview of XLS-38d standard coming to the XRP Ledger. A sidechain is the issuing chain in terms of cross-bridging networks.",
   "wss": "wss://sidechain-net2.devnet.rippletest.net:51233",
   "rpc": "http://sidechain-net2.devnet.rippletest.net:51234",
   "explorer": "https://custom.xrpl.org/",

@@ -3,7 +3,7 @@
   "name": "locking",
   "type": "development",
   "status": "live",
-  "desc": "A preview of the XLS-20d standard for non-fungible tokens on the XRP Ledger.",
+  "desc": "A preview of XLS-38d standard coming to the XRP Ledger. The mainchain is the locking chain in terms of cross-bridging networks.",
   "wss": "wss://sidechain-net1.devnet.rippletest.net:51233",
   "rpc": "http://sidechain-net1.devnet.rippletest.net:51234",
   "explorer": "https://custom.xrpl.org/",
